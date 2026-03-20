@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moodsy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="navbar">
+    <h2>Moodsy</h2>
+    <a href="/home">Home</a>
+    <a href="/login">Logout</a>
+    </div>
+
+    <h1>🎧 Moodsy - Your Mood, Your Music</h1>
+    <h3>{{ greeting }}, {{ username }} 👋</h3>
+
+    <h2>Select Your Mood</h2>
+
+    <div class="buttons">
+
+    <a href="/create_playlist/happy" onclick="showLoader()">
+        <button>😊 Happy</button>
+    </a>
+
+    <a href="/create_playlist/sad" onclick="showLoader()">
+        <button>😢 Sad</button>
+    </a>
+
+    <a href="/create_playlist/chill" onclick="showLoader()">
+        <button>😌 Chill</button>
+    </a>
+
+    <a href="/create_playlist/angry" onclick="showLoader()">
+        <button>😡 Angry</button>
+    </a>
+
+    <a href="/create_playlist/party" onclick="showLoader()">
+        <button>🥳 Party</button>
+    </a>
+
+    <a href="/create_playlist/romantic" onclick="showLoader()">
+        <button style="background: linear-gradient(135deg, #ff4d6d, #ff758f);">
+            ❤️ Romantic
+        </button>
+    </a>
+
+</div>
+<div id="loader" style="display:none; margin-top:20px;">
+    <div class="spinner"></div>
+    <p>🎧 Generating your playlist...</p>
+</div>
+
+<script>
+function showLoader() {
+    document.getElementById("loader").style.display = "block";
+}
+</script>
+
+<footer style="margin-top:50px; color:gray;">
+    Built with ❤️ using Flask & Spotify API
+</footer>
+
+</body>
+</html>
