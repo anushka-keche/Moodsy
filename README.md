@@ -1,75 +1,102 @@
-# 🎧 Moodsy – Mood-Based Playlist Generator
+<h1 align="center">🎧 Moodsy</h1>
+<p align="center">
+  <i>Mood-based Spotify playlist generator</i>
+</p><p align="center">
+  <a href="https://moodsy-final.onrender.com"><b>🌐 Live Demo</b></a>
+</p>---
 
-Moodsy is a web-based application that recommends Spotify playlists based on a user's mood.  
-It uses the Spotify Web API to fetch real-time music recommendations and create a personalized listening experience.
+✨ Overview
 
----
-
-## 🚀 Features
-
-• 🎵 Get song/playlist suggestions based on mood  
-• 🔗 Integrated Spotify Web API for real-time data  
-• ⚡ Simple and responsive user interface  
-• 🧠 Clean logic for handling user input and API responses  
+Moodsy is a simple web app that generates Spotify playlists based on your mood.
+It uses the Spotify API to fetch tracks dynamically and provides a quick way to discover music that matches how you feel.
 
 ---
 
-## 🛠 Tech Stack
+🎥 Demo
 
-• Python / JavaScript (based on your implementation)  
-• Spotify Web API  
-• HTML, CSS  
-• Git & GitHub  
+<p align="center">
+  <img src="demo.gif" width="700">
+</p>---
 
----
+📸 Screenshots
 
-## ⚙️ How It Works
+<p align="center">
+  <img src="home.png" width="45%" />
+  <img src="result.png" width="45%" />
+</p>---
 
-1. User selects or enters their mood  
-2. Application processes the input  
-3. Spotify API is called to fetch relevant tracks/playlists  
-4. Results are displayed to the user  
+🚀 Features
 
----
-
-## 📸 Screenshots
-
-(Add screenshots of your project here)
-
-Example:
-![Home Page](your-image-link)
-![Results Page](your-image-link)
+- 🔐 Spotify OAuth login
+- 😊 Mood-based playlist generation
+- 🎵 Dynamic track fetching using Spotify API
+- ⚡ Clean and responsive UI
+- 🌐 Fully deployed on Render
+- 💡 Works without Spotify Premium
 
 ---
 
-## 🔗 Live Demo
+🛠 Tech Stack
 
-(Add your deployed link here if available)
-
----
-
-## 📚 What I Learned
-
-• Working with real-world APIs (Spotify API)  
-• Handling API requests and responses  
-• Structuring a project from idea to deployment  
-• Improving debugging and problem-solving skills  
+Category| Tech
+Backend| Flask (Python)
+API| Spotify Web API
+Frontend| HTML, CSS
+Deployment| Render
+Server| Gunicorn
 
 ---
 
-## 🚧 Future Improvements
+⚙️ How It Works
 
-• Add user authentication (Spotify login)  
-• Improve UI/UX design  
-• Add more mood categories and filters  
-• Optimize performance  
-
----
-
-## 🤝 Connect with Me
-
-LinkedIn: https://www.linkedin.com/in/anushka-keche 
+1. User logs in via Spotify
+2. Selects a mood
+3. App fetches playlist using Spotify API
+4. Playlist is displayed instantly
 
 ---
 
-⭐ If you like this project, feel free to star the repo!
+🔐 Environment Variables
+
+To run this project locally, create a ".env" file:
+
+SPOTIFY_CLIENT_ID=your_client_id
+SPOTIFY_CLIENT_SECRET=your_client_secret
+REDIRECT_URI=http://127.0.0.1:5000/callback
+
+---
+
+🧩 Challenges & Learnings
+
+- Implemented Spotify OAuth authentication flow
+- Managed environment variables securely
+- Fixed deployment issues (redirect URI, 404/500 errors)
+- Learned API integration with Flask
+
+---
+
+💡 Future Improvements
+
+- Save playlists directly to user’s Spotify account
+- Add more moods and filters
+- Improve UI/UX
+- Add search functionality
+
+---
+
+⚠️ Notes
+
+- Free-tier deployment may take a few seconds to wake up
+- No Spotify Premium required
+
+---
+
+👩‍💻 Author
+
+Anushka Keche
+
+---
+
+<p align="center">
+  ⭐ If you like this project, consider giving it a star!
+</p>
