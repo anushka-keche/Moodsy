@@ -17,12 +17,12 @@ It uses the Spotify API to fetch tracks dynamically and provides a quick way to 
 
 🎥 Demo
 
-![Demo](demo.gif)
+![Demo](demo.gif.gif)
 
 📸 Screenshots
 
-![Home](home.png)
-![Result](result.png)
+![Home](home.png.png)
+![Result](result.png.png)
 
 🚀 Features
 
