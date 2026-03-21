@@ -15,11 +15,10 @@ It uses the Spotify API to fetch tracks dynamically and provides a quick way to 
 
 ---
 
-🎥 Demo
+## 🎥 Full Demo
 
-<p align="center">
-<img src="demo.gif" width="700">
-</p>
+👉 Watch complete demo here:  
+https://youtu.be/G4HrcwSMm5w
 
 📸 Screenshots
 
