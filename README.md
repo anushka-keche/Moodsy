@@ -4,29 +4,31 @@
 </p><p align="center">
   <a href="https://moodsy-final.onrender.com"><b>🌐 Live Demo</b></a>
 </p>---
-
+<br><br>
 >⚠️ Note: This app is hosted on Render's free tier and may take up to 30–60 seconds to load initially.
 
-
+<br><br>
 ✨ Overview
 
 Moodsy is a simple web app that generates Spotify playlists based on your mood.
 It uses the Spotify API to fetch tracks dynamically and provides a quick way to discover music that matches how you feel.
 
 ---
-
+<br><br><br><br>
 ## 🎥 Full Demo
 
 👉 Watch complete demo here:  
 https://youtu.be/G4HrcwSMm5w
 
-📸 Screenshots
+<br><br><br><br>
+## 📸 Screenshots
 
 <p align="center">
 <img src="home.png" width="45%"/>
 <img src="result.png" width="45%"/>
 </p>
 
+<br><br>
 🚀 Features
 
 - 🔐 Spotify OAuth login
