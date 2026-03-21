@@ -14,13 +14,13 @@ Moodsy is a simple web app that generates Spotify playlists based on your mood.
 It uses the Spotify API to fetch tracks dynamically and provides a quick way to discover music that matches how you feel.
 
 ---
-<br><br><br><br>
+<br><br><br>
 ## 🎥 Full Demo
 
 👉 Watch complete demo here:  
 https://youtu.be/G4HrcwSMm5w
 
-<br><br><br><br>
+<br><br><br>
 ## 📸 Screenshots
 
 <p align="center">
